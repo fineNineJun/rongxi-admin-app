@@ -14,7 +14,7 @@ module.exports = {
     "prettier",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended",
-    // "@unocss",
+    "@unocss",
   ],
   parserOptions: {
     ecmaVersion: "latest",
