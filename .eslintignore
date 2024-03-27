@@ -1,0 +1,17 @@
+# eslint 忽略文件dist
+node_modules
+public
+.husky
+.vscode
+.idea
+*.sh
+*.md
+*.woff
+*.ttf
+.idea
+
+src/assets
+
+.eslintrc.cjs
+.prettierrc.cjs
+.stylelintrc.cjs
