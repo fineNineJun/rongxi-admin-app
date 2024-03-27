@@ -1,16 +1,26 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const showMessage = () => {
+  ElMessage({
+    message: "Hello, world!",
+    type: "success",
+  });
+};
+</script>
 
 <template>
-  <div class="uno-css-demo-box">
-    <div class="title text-center text-[30px] text-warm-gray-200 font-bold">
-      体验uno-css
-    </div>
-    <div class="url text-center text-[16px] text-[pink]">
-      https://unocss.nodejs.cn/
-    </div>
-    <div>
-      <el-button type="primary">按钮</el-button>
-    </div>
+  <div class="common-layout wh-full">
+    <el-container>
+      <el-aside width="200px">Aside</el-aside>
+      <el-container>
+        <el-header>Header</el-header>
+        <el-main>
+          <el-button type="primary" @click="showMessage"
+            >Show Message</el-button
+          >
+        </el-main>
+        <el-footer>Footer</el-footer>
+      </el-container>
+    </el-container>
   </div>
 </template>
 
