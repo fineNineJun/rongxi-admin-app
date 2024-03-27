@@ -15,3 +15,4 @@ src/assets
 .eslintrc.cjs
 .prettierrc.cjs
 .stylelintrc.cjs
+commitlint.config.cjs

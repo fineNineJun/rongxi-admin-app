@@ -7,10 +7,5 @@
     "allowSyntheticDefaultImports": true,
     "strict": true
   },
-  "include": [
-    "vite.config.ts",
-    ".prettierrc.cjs",
-    ".eslintrc.cjs",
-    ".stylelintrc.cjs"
-  ]
+  "include": ["vite.config.ts"]
 }

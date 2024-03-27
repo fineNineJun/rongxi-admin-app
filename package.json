@@ -12,12 +12,15 @@
     "lint:stylelint": "stylelint \"**/*.{css,scss,vue,html}\" --fix",
     "lint:fix": "pnpm  lint:eslint && pnpm lint:prettier && pnpm lint:stylelint",
     "prepare": "husky install",
-    "lint:lint-staged": "lint-staged"
+    "lint:lint-staged": "lint-staged",
+    "commitlint": "commitlint --config commitlint.config.cjs -e -V"
   },
   "dependencies": {
     "vue": "^3.4.21"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.2.1",
+    "@commitlint/config-conventional": "^19.1.0",
     "@typescript-eslint/eslint-plugin": "^7.4.0",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^8.57.0",
