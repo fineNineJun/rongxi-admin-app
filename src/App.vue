@@ -8,6 +8,9 @@
     <div class="url text-center text-[16px] text-[pink]">
       https://unocss.nodejs.cn/
     </div>
+    <div>
+      <el-button type="primary">按钮</el-button>
+    </div>
   </div>
 </template>
 

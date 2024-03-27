@@ -16,9 +16,23 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "comp/*": ["src/components/*"],
+      "assets/*": ["src/assets/*"]
+    },
+    "types": ["element-plus/global"]
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "uno.config.ts"],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "types/*.d.ts",
+    "uno.config.ts"
+  ],
   "references": [
     {
       "path": "./tsconfig.node.json"
